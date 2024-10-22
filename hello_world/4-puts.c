@@ -1,5 +1,5 @@
 #!/bin/bash
-int main() {
+gcc int main() {
 puts("Programming is like building a multilingual puzzle");
 return 0;
 }
