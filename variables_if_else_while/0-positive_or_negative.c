@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* main - tmp
+* main-tmp
 *
 * Returne 0
 */
