@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main is good-tmp
+ * last_digit - Generates a random number and prints its last digit. main
  *
- * Return 0
+ * Return 0 on success
  */
 
 int last_digit(void)
@@ -36,7 +36,7 @@ int last_digit(void)
 	return (0);
 }
 
-int main (void)
+int main(void)
 {
 	last_digit();
 	return (0);
