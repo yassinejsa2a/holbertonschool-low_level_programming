@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * last_digit - Generates a random number and prints its last digit. main
+ * main - Entry point
  *
- * Return 0 on success
+ * Return: Always 0 (Success)
  */
-
 int last_digit(void)
 {
 	int n;
