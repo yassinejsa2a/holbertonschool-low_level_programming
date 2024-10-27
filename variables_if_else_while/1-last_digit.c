@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ *last_digit - Generates a random number and prints its last digit
  *
  * Return: Always 0 (Success)
  */
@@ -36,6 +36,11 @@ int last_digit(void)
 	return (0);
 }
 
+/**
+ * main - Entry point of the program.
+ * 
+ * Return: Always 0 (Success).
+ */
 int main(void)
 {
 	last_digit();
