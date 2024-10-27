@@ -7,6 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int last_digit(void)
 {
 	int n;
