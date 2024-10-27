@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-* main-tmp
-*
-* Returne 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	 int n;
