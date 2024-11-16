@@ -9,20 +9,33 @@
  * Return: cpy the string copied
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
-	char * strdup;
-	int i;
+char *cpy;
+int len = 0;
+int i;
 
-	if (stdr == NULL);
+	if (str == NULL)
 	{
-		return (NULL)
+		return (NULL);
 	}
 
-	strdup = malloc(sizeof(char) * size 
-
-	if (strdup == NULL)
+	while (str[len])
 	{
-		return (NULL)
+		len++;
 	}
 
+	cpy = malloc(sizeof(char) * (len + 1));
+
+	if (cpy == NULL)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; i <= len; i++)
+	{
+		cpy[i] = str[i];
+	}
+
+	return (cpy);
+}
