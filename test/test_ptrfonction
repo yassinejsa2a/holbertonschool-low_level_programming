@@ -1,0 +1,11 @@
+pour la 0 on souhaite afficher le nom (name) avec le pointeur de fonction (void (*f)(char *)) donc f(*name)?
+
+pour la	1 on souhaite afficher (0 98 ... etc) donc dans un tablau car il y a (size)
+forcement nous devont traverse le tableu on utilise donc la boucle (for) 
+pour parcourire on cree la fonction (int i) ca donne for ( i = 0; i < size; i++)
+ensuite on utilise le pointeur de fonction et dans se cas la il est = a action(array[i]) pour que le pointeur puissse parcouris le tablau ([])    
+
+pour la 2 cest la meme chose que la 1pour se deplacer dans le tablau on vas utiliser la   
+bocle (for) for ( i = 0; i < size; i++) ensuite on utilise le pointeur de fonction ici (cmp(array[i]))
+
+sans oublier au debut que (if size <= 0) alors on return directement a -1
